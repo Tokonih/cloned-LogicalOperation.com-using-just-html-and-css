@@ -591,6 +591,7 @@ font-weight: lighter;
 .coll2 .white{
     height: 195px;
     border: 1px solid black;
+    border-top: none;
 }
 
 .coll2 .white h1{
@@ -614,6 +615,7 @@ font-weight: lighter;
     width: 50%;
     height: 200px;
     border: 1px solid black;
+    border-bottom: none;
   text-align: center;
   /* margin-top: 10%; */
 }
@@ -628,6 +630,8 @@ font-weight: lighter;
     width: 50%;
     height: 200px;
     border: 1px solid black;
+    border-top: none;
+    border-left: none;
 }
 
 .press .blog h1{
@@ -1098,6 +1102,13 @@ font-size: 60px;
 
     .sm-foota{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .sm-foota i{
+   font-size: 25px;
     }
 
     .sm-foot p{
